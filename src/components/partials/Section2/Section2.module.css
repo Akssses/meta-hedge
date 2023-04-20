@@ -1,0 +1,155 @@
+.glow {
+  position: absolute;
+  width: 24.7vw;
+  height: 685px;
+  left: -150px;
+  top: -50px;
+  background: linear-gradient(90deg, rgba(19, 84, 122, 0.15) 0%, rgba(128, 208, 199, 0.15) 100%);
+  filter: blur(100px);
+}
+
+.circle {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.section2 {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    position: relative;
+}
+
+.content p {
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #E8EAEE;
+}
+
+.content_p {
+  max-width: 388px;
+}
+
+.welcome {
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #7C8083;
+    margin-top: 40px;
+}
+
+.button {
+    position: relative;
+    margin-top: 40px;
+    padding: 12px 24px;
+    width: 233px;
+    border-radius: 30px;
+    background-color: transparent;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .button h3 {
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #E8EAEE;
+  }
+  
+  .button::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    z-index: -1;
+    background: linear-gradient(90deg, rgba(19, 84, 122, 1) 50%,rgba(128, 208, 199, 1));
+    border-radius: 32px; 
+  }
+  
+  .button::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    z-index: -1;
+    background-color: #10161A;
+    border-radius: 28px; 
+  }
+    
+
+.diversification h3{
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #E8EAEE;
+    margin-top: 40px;
+}
+
+.valutes {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.valute {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.valute span {
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #E8EAEE;
+}
+
+.cripto_blocks img {
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+
+@media (max-width: 1024px) {
+  .section2 {
+    flex-direction: column;
+    gap: 50px;
+    align-items: start;
+    margin-top: 100px;
+  }
+  .cripto_blocks img {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .valutes {
+    gap: 0;
+  }
+
+  .valute span {
+    font-size: 16px;
+  }
+
+  .circle {
+    display: none;
+  }
+}

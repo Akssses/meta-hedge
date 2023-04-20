@@ -1,0 +1,140 @@
+.glow {
+  position: absolute;
+  width: 24.7vw;
+  height: 685px;
+  right: 0;
+  background: linear-gradient(90deg, rgba(19, 84, 122, 0.15) 0%, rgba(128, 208, 199, 0.15) 100%);
+  filter: blur(100px);
+}
+
+.section3_block {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.fond_block {
+    padding: 25px;
+    min-width: 387px;
+    background: linear-gradient(63.43deg, rgba(19, 84, 122, 0.1) 0%, rgba(128, 208, 199, 0.1) 83.33%);
+    backdrop-filter: blur(50px);
+    border-radius: 24px;
+}
+
+.fond_title {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fond_title h2 {
+    font-family: 'Igra Sans';
+    font-size: 24px;
+    color: #E8EAEE;
+}
+
+.text {
+    font-family: 'Rising Sun';
+    font-size: 20px;
+    line-height: 28px;
+    color: #BDC0C3;
+}
+
+.content_block h2{
+    font-family: 'Igra Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(25px + 11 * (100vw / 1440));
+    line-height: 120%;
+    text-align: right;
+    color: #E8EAEE;
+}
+
+.content_block h2 span {
+    background: linear-gradient(90deg, #13547A 0%, #80D0C7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.content_block p {
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: right;
+    color: #BDC0C3;
+}
+/* Add these media queries at the end of your CSS file */
+
+/* For screens with a maximum width of 1024px */
+@media (max-width: 1024px) {
+    .section3_block {
+      gap: 10px;
+      margin-top: 50px;
+    }
+  
+    .fond_block {
+      padding: 20px;
+    }
+  
+    .fond_title h2 {
+      font-size: 22px;
+    }
+  
+    .text {
+      font-size: 18px;
+    }
+  
+    .content_block h2 {
+      font-size: calc(20px + 9 * (100vw / 1440));
+    }
+  
+    .content_block p {
+      font-size: 18px;
+    }
+  }
+  
+  /* For screens with a maximum width of 768px */
+  @media (max-width: 768px) {
+    .section3_block {
+      flex-direction: column;
+      gap: 40px;
+    }
+  
+    .fond_block {
+      min-width: auto;
+      width: 100%;
+    }
+  
+    .content_block h2 {
+      font-size: 25px;
+      text-align: left;
+    }
+  
+    .content_block p {
+      text-align: left;
+    }
+    .section3_block {
+        margin-top: 50px;
+    }
+  }
+  
+  /* For screens with a maximum width of 480px */
+  @media (max-width: 480px) {
+    .fond_title h2 {
+      font-size: 20px;
+    }
+  
+    .text {
+      font-size: 16px;
+    }
+
+    .content_block p {
+      font-size: 16px;
+    }
+  }
+  

@@ -1,0 +1,35 @@
+{
+    "home": "Home",
+    "solutions": "Solutions",
+
+    "h1": "Choose",
+    "span": "the right solution",
+    "premium": "premium",
+    "platform": "Platform: ByBit",
+    "min_amount": "The minimum amount to open an account:",
+    "account": "On personal <br/> account bybit.com",
+    "btn": "Leave a request",
+
+    "volatil": "Account volatility:",
+    "high": "High",
+    "max_loss": "Maximum drawdown on history:",
+    "profit": "Yield for 1 year in % to deposit:",
+    "text_p": "*Calculated with compound %, no withdrawal **Withdrawal of funds is possible only the Bybit account owner, who decides on all operations with the account",
+    "maximize": "Profit maximization by reinvesting on the drawdown:",
+    "yes": "yes",
+
+    "syabil": "stability",
+    "consr": "Conservative",
+    "low": "low",
+    "no": "no",
+
+    "min": "minimum",
+    "roboforex": "Platform: RoboForex",
+    "min_am": "Minimum amount to open an account:",
+    "personal": "*On personal account roboforex.com",
+    "view": "View terms and conditions",
+
+    "ind": "04. Individual",
+    "text": "Personalized selection of account parameters to the specific needs of the client.",
+    "p": "For more information, write to us"
+}

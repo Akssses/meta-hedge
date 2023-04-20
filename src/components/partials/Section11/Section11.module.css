@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'Rising Sun';
+    src: url('../../../assets/fonts/RisingSun-Regular.otf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.section11_block {
+    margin-top: 150px;
+    padding: 40px;
+    background: #E8EAEE;
+    backdrop-filter: blur(100px);
+    border-radius: 32px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.header h1 {
+    font-size: 48px;
+    line-height: 120%;
+    color: #10161A;
+}
+
+.header button {
+    padding: 14px 24px;
+    width: 285px;
+    background: #73C1BE;
+    box-shadow: -1px 4px 8px rgba(6, 13, 17, 0.1);
+    border-radius: 12px;
+    font-family: 'Rising Sun';;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #10161A;
+    transition: 0.3s;
+}
+
+.header button:hover {
+  background-color: #549EA8; /* Hover state */
+}
+
+.header button:active {
+  background-color: #185A7E; /* Pressed state */
+  border: 2px solid #185A7E;
+}
+
+.header button:focus {
+  background-color: #73C1BE; /* Focus state */
+  border: 2px solid #185A7E;
+}
+
+
+.news {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.line {
+  border: 1px solid rgba(16, 22, 26, 0.1);
+  margin-top: 20px;
+}
+
+.title div {
+    width: 24px;
+    height: 24px;
+    background: #73C1BE;
+    border-radius: 50%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.title h1 {
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #10161A;
+}
+
+.title span {
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: right;
+    color: #7C8083;
+}
+
+.news_content p {
+    margin-top: 20px;
+    padding: 10px;
+    max-width: 785px;
+    background: linear-gradient(90deg, rgba(19, 84, 122, 0.1) 0%, rgba(128, 208, 199, 0.1) 100%);
+    border-radius: 12px;
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(16, 22, 26, 0.8);
+}
+
+.read_more {
+    margin-top: 22px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.read_more button {
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #185A7E;
+}
+
+.read_more span {
+    font-family: 'Rising Sun';
+    font-size: 18px;
+    line-height: 24px;
+    color: #7C8083;
+}
+
+
+/* Add these media queries at the end of your CSS file */
+
+/* For screens with a maximum width of 1024px */
+@media (max-width: 1024px) {
+    .section11_block {
+      padding: 30px;
+    }
+  
+    .header h1 {
+      font-size: 40px;
+    }
+  
+    .news {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .news_img {
+      order: -1; /* This moves the image above the text */
+      min-width: 100%;
+    }
+
+    .news_img img {
+        min-width: 100%;
+    }
+  }
+  
+  /* For screens with a maximum width of 768px */
+  @media (max-width: 768px) {
+    .header h1 {
+      font-size: 36px;
+    }
+  
+    .header button {
+      width: 100%;
+    }
+  
+    .title h1 {
+      font-size: 20px;
+    }
+  
+    .title span {
+      font-size: 16px;
+    }
+  
+    .news_content p {
+      font-size: 18px;
+    }
+  
+    .read_more {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  
+    .read_more span {
+      font-size: 14px;
+    }
+  }
+  
+  /* For screens with a maximum width of 480px */
+  @media (max-width: 480px) {
+    .section11_block {
+      margin-top: 50px;
+      padding: 20px;
+    }
+  
+    .header h1 {
+      font-size: 25px;
+    }
+  
+    .title h1 {
+      font-size: 18px;
+    }
+  
+    .title span {
+      font-size: 14px;
+    }
+  
+    .news_content p {
+      font-size: 16px;
+    }
+  
+    .read_more button {
+      font-size: 20px;
+    }
+
+    .header {
+        flex-direction: column;
+        gap: 10px;
+    }
+  }
+  

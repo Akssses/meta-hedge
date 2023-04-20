@@ -1,0 +1,267 @@
+@font-face {
+    font-family: 'Rising Sun';
+    src: url('../../../assets/fonts/RisingSun-Regular.otf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.glow {
+  position: absolute;
+  width: 24.7vw;
+  height: 685px;
+  right: 0;
+  top: -100px;
+  background: linear-gradient(90deg, rgba(19, 84, 122, 0.15) 0%, rgba(128, 208, 199, 0.15) 100%);
+  filter: blur(100px);
+}
+
+.section10_block {
+    position: relative;
+    margin-top: 150px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.text h1 {
+    font-size: 36px;
+    line-height: 120%;
+    color: #E8EAEE;
+    font-weight: 400;
+}
+
+.text p {
+    font-family: 'Rising Sun';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #E8EAEE;
+    margin-bottom: 20px;
+}
+
+.roboforex {
+    margin: 40px 0;
+    display: flex;
+    gap: 33px;
+}
+
+.roboforex img {
+    transform: translateY(-6px);
+    height: 40px;
+}
+
+.roboforex div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.roboforex h2 {
+    font-size: 48px;
+    color: #E8EAEE;
+}
+
+.roboforex span {
+    font-family: 'Rising Sun';
+    font-weight: 500;
+    font-size: 20px;
+    color: #E8EAEE;
+}
+
+.balance {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.balance h3 {
+    padding: 15px 24px;
+    width: 194px;
+    background: linear-gradient(63.43deg, rgba(19, 84, 122, 0.1) 0%, rgba(128, 208, 199, 0.1) 83.33%);
+    border-radius: 8px;
+    font-size: 20px;
+    color: #E8EAEE;
+    text-align: center;
+}
+
+.balance h6 {
+    font-family: 'Rising Sun';
+    font-size: 18px;
+    line-height: 24px;
+    color: #7C8083;
+}
+
+.text button {
+    padding: 14px 24px;
+    width: 456px;
+    background: #73C1BE;
+    box-shadow: -1px 4px 8px rgba(6, 13, 17, 0.1);
+    border-radius: 12px;
+    font-family: 'Rising Sun';
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #10161A;
+    margin-top: 62px;
+    transition: 0.3s;
+}
+
+.text button:hover {
+  background-color: #549EA8; /* Hover state */
+}
+
+.text button:active {
+  background-color: #185A7E; /* Pressed state */
+  border: 2px solid #185A7E;
+}
+
+.text button:focus {
+  background-color: #73C1BE; /* Focus state */
+  border: 2px solid #185A7E;
+}
+
+
+.val:first-child {
+  margin-top: 0;
+}
+
+.val {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 22px;
+}
+
+.statistics {
+    background-image: url(../../../assets/images/Rectangle\ 434.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 692px;
+    height: 462px;
+    border-radius: 24px;
+    padding: 40px;
+}
+
+.val p {
+    font-family: 'Rising Sun';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #E8EAEE;
+}
+
+.val span {
+    padding: 10px 20px;
+    background: linear-gradient(63.43deg, rgba(19, 84, 122, 0.1) 0%, rgba(128, 208, 199, 0.1) 83.33%);
+    border-radius: 8px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #E8EAEE;
+}
+
+.text_p {
+    font-family: 'Rising Sun';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #7C8083;
+    margin: 22px 0;
+}
+
+
+
+
+/* Add these media queries at the end of your CSS file */
+
+/* For screens with a maximum width of 1024px */
+@media (max-width: 1024px) {
+    .section10_block {
+      flex-direction: column;
+      gap: 30px;
+      padding: 0;
+    }
+  
+    .text button {
+      width: 100%;
+    }
+    .statistics {
+        min-width: 100%;
+    }
+  }
+  
+  /* For screens with a maximum width of 768px */
+  @media (max-width: 768px) {
+    .text h1 {
+      font-size: 30px;
+    }
+  
+    .text p {
+      font-size: 18px;
+    }
+  
+    .balance h3 {
+      width: auto;
+    }
+  
+    .statistics {
+      width: 100%;
+      height: auto;
+      padding: 30px;
+    }
+  }
+  
+  /* For screens with a maximum width of 480px */
+  @media (max-width: 480px) {
+    .section10_block {
+      margin-top: 50px;
+    }
+  
+    .text h1 {
+      font-size: 24px;
+      text-align: center;
+    }
+  
+    .text p {
+      font-size: 16px;
+      text-align: center;
+    }
+  
+    .roboforex h2 {
+      font-size: 36px;
+      text-align: center;
+    }
+  
+    .val {
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .val span {
+        min-width: 100%;
+        text-align: center;
+    }
+  
+    .val p {
+      font-size: 16px;
+      text-align: center;
+    }
+  
+    .text_p {
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .roboforex {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
+    
+      .balance {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
+  }
+  

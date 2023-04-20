@@ -1,0 +1,177 @@
+.glow {
+    position: absolute;
+	width: 34.7vw;
+	height: 685px;
+	right: 0px;
+	top: -187px;
+	background: linear-gradient(90deg, rgba(19, 84, 122, 0.15) 0%, rgba(128, 208, 199, 0.15) 100%);
+	filter: blur(100px);
+    z-index: 0;
+}
+
+.section1_block {
+    margin-top: 230px;
+}
+
+.section1_text {
+    margin-top: 112px;
+}
+
+.section1_text p {
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 600;
+    font-size: calc(16px + 16 * (100vw / 1280));
+    line-height: 120%;
+    color: #E8EAEE;
+}
+
+.section1_text h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 120%;
+    color: #E8EAEE;
+    margin-top: 20px;
+}
+
+.section1_text h2 {
+    font-family: 'Igra Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 120%;
+    /* identical to box height, or 96px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+
+    /* 2/Gradient/1 */
+
+    background: linear-gradient(90deg, #13547A 0%, #80D0C7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.section1_btn {
+    display: flex;
+    gap: 37px;
+    align-items: center;
+    margin-top: 56px;
+}
+
+.lines {
+    display: flex;
+    gap: 20px;
+}
+
+.line1 {
+    width: 106px;
+    height: 24px;
+    background: linear-gradient(90deg, #13547A 0%, #80D0C7 100%);
+    border-radius: 12px;
+}
+
+.line2 {
+    width: 24px;
+    height: 24px;
+    background: #80D0C7;
+    border-radius: 12px;
+}
+
+.section1_btn p {
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #BDC0C3;
+}
+
+.section1_btn button {
+    padding: 14px 24px;
+    width: 292px;
+    height: 56px;
+    /* 2/Gradient/2 */
+    background: linear-gradient(63.43deg, #13547A 0%, #80D0C7 83.33%);
+    box-shadow: -1px 4px 8px rgba(6, 13, 17, 0.1);
+    border-radius: 12px;
+
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.section1_btn button:hover {
+    background: #549EA8;
+}
+
+.section1_btn button:active {
+    background-color: #185A7E; /* Pressed state */
+    border: 2px solid #185A7E;
+}
+
+.section1_btn button:focus {
+    background-color: #73C1BE; /* Focus state */
+    border: 2px solid #185A7E;
+}
+
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+.shape_bg {
+    position: absolute;
+    z-index: 0;
+    right: 50px;
+    top: -100px;
+}
+
+.shape_bg img {
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .shape_bg {
+        display: none;
+    }
+
+    .section1_block {
+        margin-top: 100px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .section1_text {
+        margin-top: 50px;
+    }
+
+    .section1_text p {
+        margin-bottom: 10px;
+    }
+
+    .section1_text h1 {
+        font-size: 34px;
+    }
+    .section1_text h2 {
+        font-size: 34px;
+    }
+    
+    .section1_btn {
+        flex-direction: column;
+        gap: 20px;
+        align-items: start;
+        margin-top: 30px;
+    }
+
+    .section1_block {
+        margin-top: 100px;
+    }
+}

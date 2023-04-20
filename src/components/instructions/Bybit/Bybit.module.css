@@ -1,0 +1,244 @@
+.bybit_block {
+    margin-top: 150px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.nav p, a {
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #BDC0C3;
+    text-decoration: none;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.circle div {
+    width: 32px;
+    height: 32px;
+    background: #73C1BE;
+    border-radius: 50%;
+}
+
+.circle h1 {
+    font-size: 48px;
+    line-height: 120%;
+    color: #E8EAEE;
+    font-weight: 400;
+}
+
+.header_button {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-top: 40px;
+    margin-left: 72px;
+    
+}
+
+.header_button p{
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #E8EAEE;
+}
+
+.header_button button {
+    padding: 10px 10px;
+    width: 250px;
+    height: 56px;
+    background: #73C1BE;
+    box-shadow: -1px 4px 8px rgba(6, 13, 17, 0.1);
+    border-radius: 12px;
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #10161A;
+}
+
+.box_header {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 100px;
+}
+
+.box_header h1 {
+    font-size: 32px;
+    color: #73C1BE;
+}
+
+.box_header p {
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #BDC0C3;
+}
+
+.box {
+    padding: 20px;
+    height: 266px;
+    background: #10161A;
+    border: 1px solid #185A7E;
+    box-shadow: -4px -4px 20px rgba(115, 193, 190, 0.1), 4px 4px 20px rgba(115, 193, 190, 0.1);
+    border-radius: 32px;
+    position: relative;
+}
+
+.box_grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px 20px;
+}
+
+.box h3 {
+    font-size: 48px;
+    background: linear-gradient(90deg, #13547A 0%, #80D0C7 30%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.box p {
+    position: absolute;
+    bottom: 20px;
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #E8EAEE;
+    max-width: 320px;
+}
+
+
+/* Add these media queries at the end of your CSS file */
+
+/* For screens with a maximum width of 1024px */
+@media (max-width: 1024px) {
+    .bybit_block {
+      margin-top: 100px;
+    }
+  
+    .box_header h1 {
+      font-size: 28px;
+    }
+  
+    .box_header p {
+      font-size: 18px;
+    }
+  
+    .box_grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+    }
+  
+    .box {
+      width: 100%;
+      height: auto;
+    }
+  
+    .box h3 {
+      font-size: 40px;
+    }
+  
+    .box p {
+      font-size: 20px;
+      position: static;
+      bottom: auto;
+      margin-top: 20px;
+    }
+  }
+  
+  /* For screens with a maximum width of 768px */
+  @media (max-width: 768px) {
+    .bybit_block {
+      margin-top: 80px;
+    }
+  
+    .box_header h1 {
+      font-size: 24px;
+    }
+  
+    .box_header p {
+      font-size: 16px;
+    }
+  
+    .box_grid {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  
+    .box {
+      width: 100%;
+    }
+  
+    .box h3 {
+      font-size: 32px;
+    }
+  
+    .box p {
+      font-size: 18px;
+    }
+
+    .header_button {
+      flex-direction: column;
+      margin-left: 0;
+      gap: 20px;
+      align-items: start;
+    }
+
+    .circle div {
+      display: none;
+    }
+
+    .circle h1 {
+      font-size: 38px;
+    }
+  }
+  
+  /* For screens with a maximum width of 480px */
+  @media (max-width: 480px) {
+    .bybit_block {
+      margin-top: 60px;
+    }
+  
+    .box_header h1 {
+      font-size: 20px;
+    }
+  
+    .box_header p {
+      font-size: 14px;
+    }
+  
+    .box {
+      padding: 15px;
+    }
+  
+    .box h3 {
+      font-size: 28px;
+    }
+  
+    .box p {
+      font-size: 16px;
+    }
+  }
+  

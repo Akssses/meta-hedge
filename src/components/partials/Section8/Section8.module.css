@@ -1,0 +1,411 @@
+@font-face {
+    font-family: 'Rising Sun';
+    src: url('../../../assets/fonts/RisingSun-Regular.otf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.glow {
+  position: absolute;
+  width: 24.7vw;
+  height: 685px;
+  left: 0;
+  top: -100px;
+  background: linear-gradient(90deg, rgba(19, 84, 122, 0.15) 0%, rgba(128, 208, 199, 0.15) 100%);
+  filter: blur(100px);
+}
+
+.section8_block {
+    margin-top: 150px;
+    position: relative;
+}
+
+.stat1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.stat1_text h2 {
+    font-size: 48px;
+    color: #E8EAEE;
+    margin-bottom: 75px;
+    font-weight: 400;
+}
+
+.stat1_text p {
+    font-family: 'Rising Sun';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #BDC0C3;
+    max-width: 390px;
+}
+
+.circles {
+    display: flex;
+}
+
+.circle {
+    position: relative;
+}
+
+.circle img {
+  width: 100%;
+}
+
+.circle_text {
+    position: absolute;
+    top: 90px;
+    right: 60px;
+}
+
+.circle_text h4 {
+    font-family: 'Rising Sun';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #E8EAEE;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.circle_text h3 {
+    font-family: 'Rising Sun';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 52px;
+    color: #E8EAEE;
+    text-align: center;
+}
+
+.circle_text p {
+    font-family: 'Rising Sun';
+    font-size: 18px;
+    line-height: 24px;
+    color: #BDC0C3;
+    text-align: center;
+}
+
+.circle:nth-child(1) {
+    transform: translateX(100px);
+}
+
+.circle:nth-child(2) {
+    transform: translateX(50px);
+}
+
+
+
+
+.stat2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    gap: 20px;
+}
+
+.stat2_text h2 {
+    font-size: 48px;
+    line-height: 120%;
+    color: #E8EAEE;
+}
+
+.stat2_text span {
+    background: linear-gradient(90deg, #13547A 0%, #80D0C7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.stat2_text p {
+    margin-top: 40px;
+    font-family: 'Rising Sun';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #BDC0C3;
+}
+
+.stat2_score {
+    padding: 40px;
+    width: 387px;
+    height: 346px;
+    background: linear-gradient(63.43deg, rgba(19, 84, 122, 0.1) 0%, rgba(128, 208, 199, 0.1) 83.33%);
+    backdrop-filter: blur(50px);
+    border-radius: 24px;
+    border: 2px solid #80D0C7;
+}
+
+.stat2_score h2 {
+    font-size: 24px;
+    line-height: 32px;
+    color: #E8EAEE;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.stat2_score p {
+    font-family: 'Rising Sun';
+    font-size: 18px;
+    line-height: 24px;
+    color: #7C8083;
+    margin-bottom: 10px;
+}
+
+.dropdownWrapper {
+    position: relative;
+    width: 200px;
+  }
+  
+  .dropdownHeader {
+    padding: 12px 24px;
+    width: 307px;
+    height: 52px;
+    background: #E8EAEE1A;
+    border-radius: 12px 12px;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.3s;
+  }
+
+  .dropdownHeader:hover {
+    border: 1px solid #80D0C7;
+  }
+
+  .selectOpen {
+    padding: 12px 24px;
+    width: 307px;
+    height: 52px;
+    background: #E8EAEE1A;
+    border-radius: 12px 12px 0 0 ;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .dropdownHeader p {
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #E8EAEE;
+
+  }
+  
+  .dropdownList {
+    position: absolute;
+    z-index: 1;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    background: #1A2729;
+    border-radius: 0 0 12px 12px;
+
+  }
+  .selected {
+    background: #24383A;
+    cursor: pointer;
+    color:  #73C1BE;
+  }
+  .default {
+    background: #1A2729;
+    cursor: pointer;
+    color: #E8EAEE;
+  }
+  
+  .dropdownList li {
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 10px 24px;
+    width: 307px;
+    height: 48px;
+  }
+
+  .dropdownList li:last-child {
+    border-radius: 0 0 12px 12px;
+  }
+
+  .down  {
+    width: 13px;
+  }
+  .up  {
+    width: 13px;
+    transform: rotate(180deg);
+  }
+  
+  .chek {
+    margin-top: 40px;
+    padding: 14px 24px;
+    width: 307px;
+    background: #73C1BE;
+    box-shadow: -1px 4px 8px rgba(6, 13, 17, 0.1);
+    border-radius: 12px;
+    font-family: 'Rising Sun';
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #10161A;
+    transition: 0.3s;
+  }
+  
+.chek:hover {
+    background-color: #549EA8; /* Hover state */
+}
+
+.chek:active {
+    background-color: #185A7E; /* Pressed state */
+    border: 2px solid #185A7E;
+}
+
+.chek:focus {
+    background-color: #73C1BE; /* Focus state */
+    border: 2px solid #185A7E;
+}
+
+
+
+
+@media (max-width: 1024px) {
+  .stat1 {
+    display: block;
+  }
+  .circles {
+    transform: translateX(-50px);
+    margin-top: 40px;
+  }
+  .stat1_text p {
+    min-width: 100%;
+  }
+  .stat1_text h2 {
+    margin-bottom: 10px;
+  }
+  .stat1_text {
+    text-align: center;
+  }
+
+  .stat2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .stat2_text {
+    text-align: center;
+  }
+  .stat2_text p {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .circles {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .circle:nth-child(1) {
+    transform: translateX(0px);
+  }
+
+  .circle:nth-child(2) {
+      transform: translateX(0px);
+  }
+  .circles {
+    transform: translateX(0px);
+  }
+  .circle img {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .stat2_text h2 {
+    font-size: 38px;
+  }
+}
+
+
+/* Add these media queries at the end of your CSS file */
+
+/* For screens with a maximum width of 1024px */
+@media (max-width: 1024px) {
+  .stat2 {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .stat2_score {
+    width: 100%;
+  }
+  .dropdownWrapper {
+    width: 100%;
+  }
+
+  .dropdownHeader,
+  .selectOpen {
+    width: 100%;
+  }
+
+  .dropdownList li {
+    width: 100%;
+  }
+
+  .chek {
+    width: 100%;
+  }
+  
+}
+
+/* For screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  .section8_block {
+    margin-top: 50px;
+  }
+
+  .stat2_text h2 {
+    font-size: 36px;
+  }
+
+  .stat2_text p {
+    font-size: 18px;
+  }
+
+  .stat2_score {
+    height: auto;
+    padding: 30px;
+  }
+
+  .stat2_score h2 {
+    font-size: 20px;
+  }
+
+  .stat2_score p {
+    font-size: 16px;
+  }
+}
+
+/* For screens with a maximum width of 480px */
+@media (max-width: 480px) {
+  .stat2 {
+    margin-top: 50px;
+    gap: 20px;
+  }
+
+  .stat2_text h2 {
+    font-size: 28px;
+  }
+
+  .stat2_text p {
+    font-size: 16px;
+  }
+}

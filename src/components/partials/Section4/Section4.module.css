@@ -1,0 +1,287 @@
+@font-face {
+  font-family: 'Rising Sun';
+  src: url('../../../assets/fonts/RisingSun-Regular.otf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.section4_block {
+    margin-top: 150px;
+    padding: 40px 0;
+    background: #E8EAEE;
+    border-radius: 32px;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.header p {
+    color: #10161A;
+    font-family: 'Rising Sun';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: right;
+    border: 1px solid #7C8083;
+    border-radius: 24px;
+    padding: 20px;
+    width: 359px;
+}
+
+.dashed_line {
+  border-top: 1px dashed #C4D4DB;
+  border-spacing: 5px;
+  width: 100%;
+}
+
+.line_block {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.lines {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    width: 580px;
+    height: 8px;
+    background: linear-gradient(90deg, #13547A 0%, #80D0C7 100%);
+}
+
+.line_chart img {
+    width: 100%;
+}
+
+.circle {
+    width: 34px;
+    height: 34px;
+    background: #185A7E;
+    border-radius: 50%;
+    border: 7px solid #80D0C7;
+}
+
+.buy_sell h3 {
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: 0.05em;
+    background: linear-gradient(90deg, #13547A 0%, #80D0C7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-bottom: 5px;
+    padding-right: 40px;
+}
+
+.text {
+    font-family: 'Rising Sun';
+    font-weight: 500;
+    font-size: 20px;
+    color: #7C8083;
+    line-height: 28px;
+    padding: 0 40px;
+    margin-top: 18px;
+    margin-bottom: 7px;
+    max-width: 590px;
+}
+
+.position {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.long {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+
+.long span {
+    background: #185A7E;
+    width: 19px;
+    height: 19px;
+    border: 5px solid #73c1be;
+    border-radius: 50%;
+}
+
+.long p {
+    font-family: 'Rising Sun';
+    font-size: 18px;
+    text-align: center;
+    color: #7C8083;
+}
+
+.short {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+
+.short span {
+    background: #EB5757;
+    width: 19px;
+    height: 19px;
+    border: 5px solid #73c1be;
+    border-radius: 50%;
+}
+
+.short p {
+    font-family: 'Rising Sun';
+    font-size: 18px;
+    text-align: center;
+    color: #7C8083;
+}  
+
+/* Add these media queries at the end of your CSS file */
+
+/* For screens with a maximum width of 1024px */
+@media (max-width: 1024px) {
+    .section4_block {
+      padding: 30px 0;
+      margin-top: 100px;
+    }
+
+    .lines {
+        display: none;
+    }
+  
+    .header h1 {
+      font-size: 30px;
+    }
+  
+    .header p {
+      font-size: 18px;
+    }
+  
+    .line_block {
+      flex-direction: column;
+    }
+  
+    .lines {
+      margin-bottom: 20px;
+    }
+  
+    .line {
+      max-width: 100%;
+    }
+  
+    .buy_sell h3 {
+      font-size: 48px;
+    }
+  
+    .text {
+      font-size: 18px;
+    }
+  
+    .long, .short {
+      gap: 20px;
+    }
+  
+    .long p, .short p {
+      font-size: 16px;
+    }
+  }
+  
+  /* For screens with a maximum width of 768px */
+  @media (max-width: 768px) {
+    .section4_block {
+      padding: 20px 0;
+    }
+  
+    .header h1 {
+      font-size: 32px;
+      text-align: center;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+    }
+  
+    .header p {
+      font-size: 16px;
+      max-width: 100%;
+      text-align: center;
+    }
+  
+    .buy_sell h3 {
+      font-size: 40px;
+      padding: 0;
+      font-family: serif;
+    }
+
+    .line_block {
+        margin-top: 20px;
+    }
+  
+    .text {
+      font-size: 16px;
+      text-align: center;
+      min-width: 100%;
+    }
+  
+    .long, .short {
+      gap: 15px;
+    }
+  
+    .long p, .short p {
+      font-size: 14px;
+    }
+  }
+  
+  /* For screens with a maximum width of 480px */
+  @media (max-width: 480px) {
+    .section4_block {
+      padding: 10px 0;
+    }
+  
+    .header h1 {
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+  
+    .header p {
+      font-size: 14px;
+      padding: 5px;
+      text-align: center;
+      line-height: 14px;
+    }
+  
+    .buy_sell h3 {
+      font-size: 32px;
+    }
+  
+    .text {
+      font-size: 14px;
+      padding: 0 20px;
+    }
+  
+    .long, .short {
+      gap: 10px;
+    }
+  
+    .long p, .short p {
+      font-size: 12px;
+    }
+  }
+  

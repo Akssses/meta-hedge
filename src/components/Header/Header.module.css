@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'Rising Sun';
+    src: url('../../assets/fonts/RisingSun-Regular.otf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 120px;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.black_background {
+    position: fixed;
+    width: 100vw;
+    background: rgba(16, 22, 26, 0.8);
+    backdrop-filter: blur(50px);
+    margin-top: 0px;
+}
+
+.active_link {
+    color: #73C1BE;
+}
+.ne_active_link {
+    color: #E8EAEE;
+}
+
+
+@media (max-width: 1440px) {
+	.header {
+	  padding: 20px 120px; /* Отступы для контейнера на экранах меньше 1440px */
+	}
+}
+
+@media (max-width: 1024px) {
+	.header {
+		padding: 20px 40px; /* Отступы для контейнера на экранах меньше 1440px */
+        top: -10px
+	}
+	br {
+		display: none;
+	}
+}
+
+@media (max-width: 900px) {
+    .header {
+        top: -10px;
+    }
+}
+
+@media (max-width: 768px) {
+	.header {
+		padding: 10px 20px;
+	}
+}
+
+.header_link ul {
+    display: flex;
+    gap: 40px;
+}
+
+.header_link ul a {
+    font-size: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: 'Rising Sun';
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.language {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.language p {
+    font-size: 20px;
+    line-height: 28px;
+    color: #E8EAEE;
+}
+
+.language_list {
+    position: absolute;
+    margin-top: 10px;
+}
+
+.language_list img {
+    width: 30px;
+}
+
+.language_flag {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.language_name {
+    font-size: 20px;
+    line-height: 28px;
+    color: #E8EAEE;
+    font-family: 'Rising Sun';
+    
+}
+.language_flag img {
+    width: 30px;
+}
+
+.telegram {
+    display: none;
+}
+
+.login_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 24px;
+    gap: 8px;
+    background: #73C1BE;
+    border-radius: 12px;
+}
+
+.login_button p {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #10161A;
+    font-family: 'Rising Sun';
+}
+
+.burger_menu {
+    display: none;
+  }
+
+  @media (max-width: 1024px) {
+    .header {
+        margin-top: 10px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .header_nav {
+      display: none;
+    }
+
+    .burger_menu {
+        display: block;
+        cursor: pointer;
+        z-index: 100;
+    }
+
+    .telegram {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-top: 175px;
+    }
+
+    .telegram a {
+        font-family: 'Igra Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+
+    .header_link ul {
+        flex-direction: column;
+        gap: 20px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+      }
+
+    .lan {
+        margin-bottom: 60px;
+    }
+
+    .active_menu {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: url(../../assets/images/header-bg.png);
+        background-position: center ;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        z-index: 99;
+        padding: 40px;
+        overflow: hidden;
+        padding-top: 130px;
+    }
+  }
+  

@@ -1,0 +1,16 @@
+{
+    "testAtomBot": "Test AtomBot",
+    "onRoboForex": "on the RoboForex platform",
+    "account": "Solution:",
+    "minAmount": "The minimum amount to open an account:",
+    "onPersonalAccount": "On your personal roboforex.com account",
+    "start": "Leave a request",
+    "volatility": "Account volatility:",
+    "high": "High",
+    "maxLoss": "Maximum drawdown on history:",
+    "profit": "Yield for 1 year in % to deposit:",
+    "note1": "*Calculated with compound %, no withdrawal",
+    "note2": "**Withdrawal of funds is possible only the Bybit account owner, who decides on all operations with the account",
+    "maximizeProfit": "Profit maximization by reinvesting on the drawdown:",
+    "yes": "yes"
+}

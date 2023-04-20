@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Rising Sun';
+    src: url('../../assets/fonts/RisingSun-Regular.otf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.glow {
+  position: absolute;
+  width: 24.7vw;
+  height: 285px;
+  left: 0;
+  top: -100px;
+  background: linear-gradient(90deg, rgba(19, 84, 122, 0.15) 0%, rgba(128, 208, 199, 0.15) 100%);
+  filter: blur(100px);
+}
+
+.footer {
+    padding: 50px 0 100px 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.footer_logo div {
+    margin-top: 43px;
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #BDC0C3;
+}
+
+.footer_nav {
+    display: flex;
+    gap: 80px;
+}
+
+.footer_nav div {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.footer_nav div a {
+    margin-bottom: 20px;
+    font-family: 'Rising Sun';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #BDC0C3;
+}
+
+.telega {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.telega h5 {
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #BDC0C3;
+}
+
+/* Add these media queries at the end of your CSS file */
+
+/* For screens with a maximum width of 1024px */
+@media (max-width: 1024px) {
+    .footer_nav {
+      gap: 40px;
+    }
+  }
+  
+  /* For screens with a maximum width of 768px */
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      gap: 40px;
+      align-items: start;
+    }
+  
+    .footer_logo div {
+      font-size: 16px;
+    }
+  
+    .footer_nav {
+      justify-content: center;
+    }
+  
+    .footer_nav div p {
+      font-size: 18px;
+    }
+  }
+  
+  /* For screens with a maximum width of 480px */
+  @media (max-width: 480px) {
+    .footer {
+      padding: 30px 0;
+    }
+  
+    .footer_logo {
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer_nav {
+      gap: 20px;
+    }
+  
+    .footer_nav div {
+      gap: 10px;
+    }
+  
+    .footer_nav div p {
+      font-size: 16px;
+    }
+  
+    .telega {
+      gap: 10px;
+    }
+  
+    .telega h5 {
+      font-size: 18px;
+    }
+  }
+  

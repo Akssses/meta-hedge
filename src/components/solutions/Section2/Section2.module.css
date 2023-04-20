@@ -1,0 +1,227 @@
+.section2_block {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.first_block {
+    background-image: url(../../../assets/images/Rectangle\ 434.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 590px;
+    height: 408px;
+    border-radius: 24px;
+    padding: 40px;
+    position: relative;
+}
+
+.block2_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block2_header div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.block2_header h3 {
+    font-size: 32px;
+    line-height: 120%;
+    color: #E8EAEE;
+}
+
+.block2_header div img {
+    width: 114.29px;
+    height: 32px;
+}
+
+.button {
+    padding: 12px 24px;
+    border-radius: 30px;
+    background-color: transparent;
+    overflow: hidden;
+    z-index: 1;
+    font-family: 'Rising Sun';
+    font-weight: 500;
+    font-size: 20px;
+    color: #E8EAEE;
+    border: 2px solid #73C1BE;
+}
+
+.request_btn {
+  position: absolute;
+  bottom: 40px;
+  max-width: 460px
+}
+
+.text {
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #E8EAEE;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.rf {
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #E8EAEE;
+}
+
+.sum {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.sum p {
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #E8EAEE;
+}
+
+.sum span {
+    font-weight: 400;
+    font-size: 20px;
+    color: #E8EAEE;
+    width: 250px;
+    text-align: center;
+    padding: 12px 24px;
+    background: linear-gradient(63.43deg, rgba(19, 84, 122, 0.1) 0%, rgba(128, 208, 199, 0.1) 83.33%);
+    border-radius: 8px;
+}
+
+.account {
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #7C8083;
+    margin-top: 12px;
+}
+
+.block1_main button {
+    margin-top: 32px;
+    padding: 14px 24px;
+    width: 100%;
+    background: #73C1BE;
+    box-shadow: -1px 4px 8px rgba(6, 13, 17, 0.1);
+    border-radius: 12px;
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.accord {
+    margin-top: 32px;
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #73C1BE;
+}
+
+/* Add these media queries at the end of your CSS file */
+
+/* For screens with a maximum width of 1024px */
+@media (max-width: 1024px) {
+    .section2_block {
+      flex-direction: column;
+      gap: 30px;
+      margin-top: 80px;
+    }
+  
+    .first_block {
+      width: 100%;
+      height: auto;
+      padding: 30px;
+    }
+  
+    .block2_header h3 {
+      font-size: 28px;
+    }
+  
+    .text {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  
+    .rf, .account, .sum p {
+      font-size: 16px;
+    }
+  
+    .sum span {
+      font-size: 18px;
+      padding: 10px 20px;
+    }
+  
+    .accord {
+      font-size: 16px;
+    }
+
+    .request_btn {
+      position: inherit;
+      min-width: 100%;
+    }
+  }
+  
+  /* For screens with a maximum width of 768px */
+  @media (max-width: 768px) {
+    .section2_block {
+      margin-top: 60px;
+    }
+
+  
+    .block2_header h3 {
+      font-size: 24px;
+    }
+  
+    .text {
+      font-size: 18px;
+      line-height: 26px;
+    }
+  
+    .rf, .account, .sum p {
+      font-size: 14px;
+    }
+  
+    .sum span {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+  
+  
+    .accord {
+      font-size: 14px;
+    }
+
+    .block2_header {
+        display: flex;
+        gap: 10px;
+    }
+
+    .block2_header div {
+        display: block;
+    }
+  }

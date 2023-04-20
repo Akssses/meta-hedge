@@ -1,0 +1,380 @@
+@font-face {
+    font-family: 'Rising Sun';
+    src: url('../../../assets/fonts/RisingSun-Regular.otf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.choice_block {
+    margin-top: 150px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.nav p, a {
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #BDC0C3;
+    text-decoration: none;
+}
+
+.choice_header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.left_content {
+    position: relative;
+    z-index: 1;
+}
+
+.number {
+    position: absolute;
+    top: 0;
+    left: 150px;
+
+    font-family: 'Igra Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 250px;
+    line-height: 120%;
+
+    background: linear-gradient(90deg, rgba(19, 84, 122, 0.1) 0%, rgba(128, 208, 199, 0.1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.circle {
+    width: 32px;
+    height: 32px;
+    background: #73C1BE;
+    border-radius: 50%;
+}
+
+.choice_header h1 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: #E8EAEE;
+}
+
+.choice_header h1 span {
+    background: linear-gradient(90deg, #13547A 0%, #80D0C7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.bybit {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.bybit img {
+    width: 82px;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 80px 0;
+}
+
+.button {
+    position: relative;
+    padding: 12px 24px;
+    border-radius: 30px;
+    background-color: transparent;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.button h3 {
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #E8EAEE;
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    z-index: -1;
+    background: linear-gradient(90deg, rgba(19, 84, 122, 1) 50%,rgba(128, 208, 199, 1));
+    border-radius: 32px; 
+}
+
+.button::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    z-index: -1;
+    background-color: #10161A;
+    border-radius: 28px; 
+}
+
+.platforms p {
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #E8EAEE;
+    margin-top: 40px;
+}
+
+.platforms h4 {
+    font-family: 'Rising Sun';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    color: #E8EAEE;
+    margin-top: 10px;
+}
+
+.sum {
+    margin-top: 40px;
+}
+
+.sum p {
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #E8EAEE;
+}
+
+.sum div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.sum div span {
+    font-weight: 400;
+    font-size: 20px;
+    color: #E8EAEE;
+    padding: 16px 24px;
+    width: 209px;
+    background: linear-gradient(63.43deg, rgba(19, 84, 122, 0.1) 0%, rgba(128, 208, 199, 0.1) 83.33%);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.sum_p {
+    font-family: 'Rising Sun';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #7C8083;
+}
+
+.left_content button {
+    margin-top: 70px;
+    font-family: 'Rising Sun';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #10161A;
+    padding: 14px 24px;
+    width: 285px;
+    background: #73C1BE;
+    box-shadow: -1px 4px 8px rgba(6, 13, 17, 0.1);
+    border-radius: 12px;
+}
+
+.statistics {
+    background-image: url(../../../assets/images/Rectangle\ 434.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 692px;
+    height: 462px;
+    border-radius: 24px;
+    padding: 40px;
+    border: 1px solid #73C1BE;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(115, 193, 190, 0.2);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(115, 193, 190, 0.2);
+    box-shadow: 0px 0px 10px 5px rgba(115, 193, 190, 0.2);
+}
+
+.val p {
+    font-family: 'Rising Sun';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #E8EAEE;
+}
+
+.val:first-child {
+    margin-top: 0;
+}
+  
+.val {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 22px;
+}
+
+.text_p {
+    font-family: 'Rising Sun';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #7C8083;
+    margin: 22px 0;
+    max-width: 538px;
+}
+
+.val span {
+    padding: 10px 20px;
+    background: linear-gradient(63.43deg, rgba(19, 84, 122, 0.1) 0%, rgba(128, 208, 199, 0.1) 83.33%);
+    border-radius: 8px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #E8EAEE;
+}
+
+
+@media (max-width: 1024px) {
+    .block {
+      display: block;
+    }
+    
+    .left_content {
+        margin-bottom: 30px;
+    }
+
+    .info {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: space-between;
+    }
+  
+    .text button {
+        width: 100%;
+    }
+    .statistics {
+        min-width: 100%;
+    }
+
+    .number {
+        font-size: 180px;
+        right: 0;
+    }
+  }
+  
+  /* For screens with a maximum width of 768px */
+  @media (max-width: 768px) {
+    .text h1 {
+        font-size: 30px;
+    }
+  
+    .text p {
+        font-size: 18px;
+    }
+  
+    .balance h3 {
+        width: auto;
+    }
+  
+    .statistics {
+        width: 100%;
+        height: auto;
+        padding: 30px;
+    }
+
+    .choice_block {
+        margin-top: 100px;
+    }
+
+    .info {
+        display: block;
+    }
+
+    .circle {
+        display: none;
+    }
+
+    .block {
+        margin-top: 40px;
+    }
+
+    .sum {
+        margin-top: 20px;
+    }
+
+    .choice_header h1{
+        font-size: 38px;
+    }
+
+    .platforms h4 {
+        font-size: 35px;
+    }
+  }
+  
+  /* For screens with a maximum width of 480px */
+  @media (max-width: 480px) {
+
+    .val {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .val span {
+        min-width: 100%;
+        text-align: center;
+    }
+  
+    .val p {
+        font-size: 16px;
+        text-align: center;
+    }
+  
+    .text_p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .sum div {
+        flex-direction: column;
+        gap: 10px;
+        align-items: start;
+    }
+
+    .sum div h6 {
+        order: -1;
+    }
+
+    .btn button {
+        min-width: 100%;
+    }
+  }
+  

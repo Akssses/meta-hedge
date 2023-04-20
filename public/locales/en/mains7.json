@@ -1,0 +1,31 @@
+{
+    "h1": "Choose",
+    "h1_br": "the right solution",
+    "p": "Individual selection of account parameters for specific customer needs is possible",
+
+    "title": "Conservative",
+    "stat-title-1": "Account volatility:",
+    "stat-1": "Low",
+
+    "stat-title-2": "Maximum drawdown on history:",
+    "stat-2": "20%",
+
+    "stat-title-3": "Yield for 1 year in % to deposit:",
+    "stat-3": "60-500%",
+    "stat-title-3p": "*Calculated with compound %, no withdrawal **Withdrawal of funds is possible only the Bybit account owner, who decides on all operations with the account",
+
+    "stat-title-4": "Profit maximization by reinvesting on the drawdown:",
+    "stat-4": "no",
+    "stat-4-at": "yes",
+
+    "stat-title-5": "Minimum amount",
+    "stat-title-br": "to open an account:",
+    "stst-5": "50 000 USDT",
+
+    "stat-5p": "*On personal account bybit.com",
+
+    "btn": "Leave a request",
+
+    "title2": "ATOM"
+
+}

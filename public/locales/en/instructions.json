@@ -1,0 +1,27 @@
+{
+    "home": "Home",
+    "instr": "Instructions",
+    "h1": "How do I start earning?",
+    "p": "For the entire period of work with MetaHedge products we provide support and feedback to our customers.",
+    "question_btn": "Ask a question",
+
+    "bybit_h1": "Instructions for ATОM and Conservative accounts.",
+    "bybit_platform": "Platform: ByBit",
+    "bb1": "You register personal account on the cryptocurrency exchange www.bybit.com",
+    "bb2": "Go through the KYC procedure and connect Google 2FA in your account settings",
+    "bb3": "Activate the MT4 trading terminal in your ByBit account settings",
+    "bb4": "Make the required deposit in USDT to your Personal Account (Spot)",
+    "bb5": "Write to us and we will help with the connection, settings, selection of the best product",
+    "bb6": "After setting up an account and paying the connection fee, we launch the trading robot",
+
+    "rf_h1": "Instructions for the BETA account.",
+    "rf_platform": "Platform: RoboForex",
+    "rf1": "You register personal account at the RoboForex platform by following the link ",
+    "rf2": "Go through the verification procedure (KYC) (mail, phone and passport)",
+    "rf3": "Open a trading account in your account settings (make sure the Account Type line is MT4 Prime)",
+    "rf4": "Make the required deposit in USDT to your Personal Account (Spot)",
+    "rf5": "Write to us and we will help with the connection, settings, selection of the best product",
+    "rf6": "After setting up an account and paying the connection fee, we launch the trading robot",
+    "rf_p": "More detailed instructions for connecting the trading robot ",
+    "rf_btn": "View"
+}
