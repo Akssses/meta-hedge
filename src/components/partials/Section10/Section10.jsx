@@ -3,7 +3,7 @@ import roboforex from '../../../assets/icons/roboforex.svg'
 import { useTranslation } from 'react-i18next';
 
 export const Section10 = () => {
-    const { t, i18n } = useTranslation('atombot');
+    const { t } = useTranslation('atombot');
 
     return (
         <section className={s.section10_block}>
@@ -21,7 +21,9 @@ export const Section10 = () => {
                     <h3>1 000 USDT</h3>
                     <h6>{t('onPersonalAccount')}<br /> roboforex.com</h6>
                 </div>
-                <button>{t('start')}</button>
+                <a target='_blank' href="https://t.me/MetaHedge_bot" rel="noreferrer">  
+                    <button>{t('start')}</button>
+                </a>
             </div>
             <div className={s.statistics}>
                 <div className={s.val}>

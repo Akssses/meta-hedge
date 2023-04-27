@@ -5,6 +5,7 @@ import arrow from '../../../assets/icons/arrow-down.svg'
 
 export const Section2 = () => {
     const { t } = useTranslation('solution');
+    const personal = t('personal');
 
     return (
         <section className={s.section2_block}>
@@ -22,9 +23,11 @@ export const Section2 = () => {
                         <p>{t('min_am')}</p>
                         <span>50 000 USDT</span>
                     </div>
-                    <p className={s.account}>{t('personal')}</p>
+                    <p className={s.account} dangerouslySetInnerHTML={{__html: personal}}></p>
                     <h3 className={s.accord}>{t('view')} <img src={arrow} alt="" /></h3>
-                    <button className={s.request_btn}>{t('btn')}</button>
+                    <a target='_blank' href="https://t.me/MetaHedge_bot" rel="noreferrer">
+                        <button className={s.request_btn}>{t('btn')}</button>
+                    </a>
                 </div>
             </div>
             <div className={s.first_block}>
@@ -34,7 +37,9 @@ export const Section2 = () => {
                 <div className={s.block1_main}>
                     <p className={s.text}>{t('text')}</p>
                     <p className={s.account}>{t('p')}</p>
-                    <button className={s.request_btn}>{t('btn')}</button>
+                    <a target='_blank' href="https://t.me/MetaHedge_bot" rel="noreferrer">
+                        <button className={s.request_btn}>{t('btn')}</button>
+                    </a>
                 </div>
             </div>
         </section>

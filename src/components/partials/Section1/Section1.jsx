@@ -19,7 +19,11 @@ export const Section1 = () => {
                         <div className={s.line2}/>
                     </div>
                     <p>{t('24/7')}</p>
-                    <button>{t('request-btn')}</button>
+                    <a target='_blank' href="https://t.me/MetaHedge_bot" rel="noreferrer">
+                        <button>
+                            {t('request-btn')}
+                        </button>
+                    </a>
                 </div>
             </div>
             <div className={s.shape_bg}>

@@ -1,6 +1,3 @@
-import React, { useState } from 'react'
-import { Footer } from './components/Footer/Footer';
-import { Header } from './components/Header/Header';
 import { Section1 } from './components/partials/Section1/Section1';
 import { Section10 } from './components/partials/Section10/Section10';
 import { Section11 } from './components/partials/Section11/Section11';

@@ -18,6 +18,12 @@
     margin-top: 30px;
 }
 
+.telegram a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
 .black_background {
     position: fixed;
     width: 100vw;

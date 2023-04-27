@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
 import s from './BlogNav.module.css'
 import arrow from '../../../assets/icons/lineArrow.svg'
-import newsImg from '../../../assets/images/news-img.png'
 import search_img from '../../../assets/icons/search-btn.svg'
 import { BlogCard } from '../BlogCard/BlogCard'
 import { useEffect } from 'react'
@@ -11,7 +10,7 @@ import { useTranslation } from 'react-i18next'
 
 export const BlogNav = () => {
     const [posts, setPosts] = useState([]);
-    const {t, i18n } = useTranslation('blog');
+    const {t} = useTranslation('blog');
     const [search, setSearch] = useState('')
     const [activeTag, setActiveTag] = useState(null);
     const onChangeSearch = (event) => {

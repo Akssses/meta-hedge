@@ -28,10 +28,6 @@ export const Header = () => {
         setShowMenu(!showMenu);
     };
 
-    const closeMenu = () => {
-        setShowMenu(false);
-    };
-
     const handleScroll = () => {
         const currentScrollPosition = window.pageYOffset;
     
@@ -95,8 +91,10 @@ export const Header = () => {
                     <img src={loginIcon} alt="login" />
                 </div>
                 <div className={s.telegram}>
-                    <a href="#">Telegram</a>
-                    <img src={telega} alt="Telegram" />
+                    <a target='_blank' href="https://t.me/MetaHedge_bot" rel="noreferrer">
+                        <h5>Telegram</h5>
+                        <img src={telega} alt="" />
+                    </a>
                 </div>
             </div>
             <div className={s.burger_menu} onClick={toggleMenu}>

@@ -43,7 +43,7 @@ export const BlogCard = ({id, title, date, readingTime, titleEN,  coverImage, sl
                 </div>
             </div>
             <div className={s.news_img}>
-                <img src={coverImage} alt="news image" />
+                <img src={coverImage} alt="News preview" />
             </div>
         </div>
     );

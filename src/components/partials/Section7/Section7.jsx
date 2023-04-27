@@ -47,9 +47,11 @@ export const Section7 = () => {
                             <span>50 000 USDT</span>
                         </div>
                     </div>
-                    <div className={s.block_btn}>
-                        <p>{t('btn')}</p>
-                    </div>
+                    <a target='_blank' href="https://t.me/MetaHedge_bot" rel="noreferrer">
+                        <div className={s.block_btn}>
+                            <p>{t('btn')}</p>
+                        </div>
+                    </a>
                 </div>
                 <div className={s.block}>
                     <div className={s.block_header}>
@@ -87,9 +89,11 @@ export const Section7 = () => {
                             <span>20 000 USDT</span>
                         </div>
                     </div>
-                    <div className={s.block_btn}>
-                        <p>{t('btn')}</p>
-                    </div>
+                    <a target='_blank' href="https://t.me/MetaHedge_bot" rel="noreferrer">
+                        <div className={s.block_btn}>
+                            <p>{t('btn')}</p>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div className={s.glow}/>

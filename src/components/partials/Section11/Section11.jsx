@@ -1,12 +1,11 @@
 import s from './Section11.module.css'
-import newsImg from '../../../assets/images/news-img.png'
 import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react';
 import { BlogCard } from '../../Blog/BlogCard/BlogCard';
 import { useTranslation } from 'react-i18next';
 
 export const Section11 = () => {
-    const {t, i18n } = useTranslation('blog');
+    const {t} = useTranslation('blog');
     const [posts, setPosts] = useState([]);
   
     useEffect(() => {

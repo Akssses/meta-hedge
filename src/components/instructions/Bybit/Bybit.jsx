@@ -22,7 +22,9 @@ export const Bybit = () => {
                 </div>
                 <div className={s.header_button}>
                     <p>{t('p')}</p>
-                    <button>{t('question_btn')}</button>
+                    <a target='_blank' href="https://t.me/MetaHedge_bot" rel="noreferrer">
+                        <button>{t('question_btn')}</button>
+                    </a>
                 </div>
             </div>
 
@@ -90,7 +92,9 @@ export const Bybit = () => {
 
             <div className={s.header_button}>
                     <p>{t('rf_p')}</p>
-                    <button>{t('rf_btn')}</button>
+                    <a target='_blank' href="https://t.me/MetaHedge_bot" rel="noreferrer">
+                        <button>{t('rf_btn')}</button>
+                    </a>
                 </div>
         </section>
     )

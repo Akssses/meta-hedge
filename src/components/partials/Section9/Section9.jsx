@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 
 
 export const Section9 = () => {
-    const { t, i18n } = useTranslation('mains8');
+    const { t } = useTranslation('mains8');
 
     return (
         <section className={s.section9_block}>
@@ -17,9 +17,11 @@ export const Section9 = () => {
                 <h3>{t('s9_h3')}</h3>
                 <p>{t('s9_p')}</p>
                 <h6 className={s.more_info}>{t('s9_inf')}</h6>
-                <div className={s.button}>
-                    <button>{t('btn')}</button>
-                </div>
+                <a target='_blank' href="https://t.me/MetaHedge_bot" rel="noreferrer">
+                    <div className={s.button}>
+                        <button>{t('btn')}</button>
+                    </div>
+                </a>
             </div>
         </section>
     )

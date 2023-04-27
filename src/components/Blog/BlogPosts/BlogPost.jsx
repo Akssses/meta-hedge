@@ -1,5 +1,4 @@
 import s from './BlogPost.module.css'
-import newsImg from '../../../assets/images/news-img.png'
 import arrow from '../../../assets/icons/lineArrow.svg'
 import backArrow from '../../../assets/icons/back-btn.svg'
 import { Link } from 'react-router-dom'

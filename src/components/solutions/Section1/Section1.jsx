@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
 export const Section1 = () => {
-    const { t, i18n } = useTranslation('solution');
+    const { t } = useTranslation('solution');
     const personal = t('personal');
 
     return (
@@ -42,7 +42,9 @@ export const Section1 = () => {
                             </div>
                         </div>
                     </div>
-                    <div className={s.btn}><button>{t('btn')}</button></div>
+                    <a target='_blank' href="https://t.me/MetaHedge_bot" rel="noreferrer">                     
+                        <div className={s.btn}><button>{t('btn')}</button></div>
+                    </a>
                     <p className={s.number}>01</p>
                 </div>
                 
@@ -88,7 +90,9 @@ export const Section1 = () => {
                             </div>
                         </div>
                     </div>
-                    <div className={s.btn}><button>{t('btn')}</button></div>
+                    <a target='_blank' href="https://t.me/MetaHedge_bot" rel="noreferrer">
+                        <div className={s.btn}><button>{t('btn')}</button></div>
+                    </a>
                     <p className={s.number}>02</p>
                 </div>
                 

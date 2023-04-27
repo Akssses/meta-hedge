@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
 export const Footer = () => {
-    const { t, i18n } = useTranslation('footer');
+    const { t } = useTranslation('footer');
     const [activeLink, setActiveLink] = useState(null);
 
     return (
@@ -24,9 +24,12 @@ export const Footer = () => {
                     </div>
                     <div>
                         <Link to="/blog" onClick={() => setActiveLink('/blog')} className={activeLink === '/blog' ? s.active_link : s.ne_active_link}>{t('nav3')}</Link>
+                    
                         <div className={s.telega}>
-                            <h5>Telegram</h5>
-                            <img src={telega} alt="" />
+                            <a target='_blank' href="https://t.me/MetaHedge_bot" rel="noreferrer">
+                                <h5>Telegram</h5>
+                                <img src={telega} alt="" />
+                            </a>
                         </div>
                     </div>
                 </div>

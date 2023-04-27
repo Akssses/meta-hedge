@@ -54,10 +54,10 @@
     border: 2px solid #73C1BE;
 }
 
-.request_btn {
+.request_btn button {
   position: absolute;
   bottom: 40px;
-  max-width: 460px
+  width: 100%;
 }
 
 .text {
